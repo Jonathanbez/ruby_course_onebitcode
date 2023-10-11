@@ -1,4 +1,5 @@
-# UNLESS (contrario ao if, é executado apenas quando a condiçao é falsa)
+# UNLESS - CONDICIONAIS
+# UNLESS (A não ser que) contrario ao if, é executado apenas quando a condiçao é falsa
 # IF NOT é parecido com UNLESS
 product_status = 'closed'
 

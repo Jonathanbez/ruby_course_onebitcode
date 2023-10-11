@@ -1,3 +1,4 @@
+# CASE STATEMENTE - CONTROLE DE FLUXO
 # CASE STATEMENT estrutura de controle de fluxo, executa um bloco especido
 # de codigo de acordo com a expressão. Compara uma variavel com varios valores.
 

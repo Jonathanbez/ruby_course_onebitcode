@@ -1,4 +1,6 @@
-# ELSIF esle do if
+# ELSIF - CONDICIONAIS
+# ELSIF (Senão Se) - Else do If, uma nova condição que verifica condição anterior foi falsa.
+
 # OBS: para criar uma variavel que recebe integer use: var = Integer(gets.chomp)
 # OBS: Ou use var = gets.chom.to_i
 print "Digite sua idade: \n" 
