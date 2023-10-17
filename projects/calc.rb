@@ -5,7 +5,7 @@ print "Obs: Escolha usando o número correspondente: "
 
 
 begin
-    option = gets.chomp
+    option = gets.chomp.to_i
     if option == 1
         print "Começando com a Adição\n"
         print "Digite o promeiro número inteiro (adição): "
