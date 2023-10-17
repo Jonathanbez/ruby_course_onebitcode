@@ -1,10 +1,11 @@
 #PEQUENA CALCULADORA COM RUBY
 
 
-print "O que deseja calcular? Escolah as opções: 1.Adição, 2.Subtração, 3.Multiplicação ou 4.Divisão\n"
+print "O que deseja calcular? Escolah as opções:\n1.Adição, 2.Subtração, 3.Multiplicação ou 4.Divisão\n"
 print "Obs: Escolha usando o número correspondente: "
 
 option = gets.chomp.to_i
+
 
 if option == 1
     print "Começando com a Adição\n"
@@ -32,9 +33,9 @@ elsif option == 3
     puts "O resultado da multiplicação, o produto é #{multiplication}"
 elsif option == 4
     print "Agora vamos dividir\n"
-    print "Digite o primeiro número inteiro (divisão):"
+    print "Digite o dividendo (divisão):"
     div1 = gets.chomp.to_f
-    print "Digite o segundo número inteiro (divisão):"
+    print "Digite o divisor (divisão):"
     div2 = gets.chomp.to_f
     division = div1 / div2
     puts "O resultado da divisão é #{division}"
