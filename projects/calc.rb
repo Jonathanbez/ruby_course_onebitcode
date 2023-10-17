@@ -4,9 +4,9 @@
 print "O que deseja calcular? Escolah as opções:\n1.Adição, 2.Subtração, 3.Multiplicação ou 4.Divisão\n"
 print "Obs: Escolha usando o número correspondente: "
 
-option = gets.chomp.to_i
 
 begin
+    option = gets.chomp.to_i
     if option == 1
         print "Começando com a Adição\n"
         print "Digite o promeiro número inteiro (adição): "
@@ -39,7 +39,9 @@ begin
         div2 = gets.chomp.to_f
         division = div1 / div2
         puts "O resultado da divisão é #{division}"
+    else
+        raise ArgumentError 
     end
 rescue  ArgumentError
-    print "Opção invalida"
+    puts "Opção invalida! Escolha umas das 4 opções."
 end
