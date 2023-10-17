@@ -1,6 +1,5 @@
 #PEQUENA CALCULADORA COM RUBY
 
-
 print "O que deseja calcular? Escolah as opções:\n1.Adição, 2.Subtração, 3.Multiplicação ou 4.Divisão\n"
 print "Obs: Escolha usando o número correspondente: "
 
