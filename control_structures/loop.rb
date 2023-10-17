@@ -1,4 +1,5 @@
-# LOOP 
+# LOOP - ITERATOR (UNCONDITIONAL)
+# repete a função/bloco de codigo até que a condição seja atendida.
 
 count = 1
 
