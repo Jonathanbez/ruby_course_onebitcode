@@ -1,33 +1,41 @@
 #PEQUENA CALCULADORA COM RUBY
 
-print "Começando com a Adição\n"
-print "Digite o promeiro número inteiro (adição): "
-add1 = gets.chomp.to_i
-print "Digite o segundo número inteiro (adição): "
-add2 = gets.chomp.to_i
-addition = add1 + add2
-puts "O resultado da adição é #{addition}"
 
-print "Agora vamos Subtrair!\n"
-print "Digite o primero número inteiro (subtração): "
-sub1 = gets.chomp.to_i
-print "Digite so segundo número inteiro (subtração):"
-sub2 = gets.chomp.to_i
-subtraction = sub1 - sub2
-puts "O resultado da subtração é #{subtraction}"
+print "O que deseja calcular? Escolah as opções: 1.Adição, 2.Subtração, 3.Multiplicação ou 4.Divisão\n"
+print "Obs: Escolha usando o número correspondente: "
 
-print "Agora vamos Multiplicar\n"
-print "Digite o primeiro número inteiro (multiplicação): "
-mult1 = gets.chomp.to_i
-print "Digite o segundo número inteiro (multiplicação): "
-mult2 = gets.chomp.to_i
-multiplication = mult1 * mult2
-puts "O resultado da multiplicação é #{multiplication}"
+option = gets.chomp.to_i
 
-print "Agora vamos dividir\n"
-print "Digite o primeiro número inteiro (divisão):"
-div1 = gets.chomp.to_i
-print "Digite o segundo número inteiro (divisão):"
-div2 = gets.chomp.to_i
-division = div1 / div2
-puts "O resultado da divisão é #{division}"
+if option == 1
+    print "Começando com a Adição\n"
+    print "Digite o promeiro número inteiro (adição): "
+    add1 = gets.chomp.to_i
+    print "Digite o segundo número inteiro (adição): "
+    add2 = gets.chomp.to_i
+    addition = add1 + add2
+    puts "O resultado da adição é #{addition}"
+elsif option == 2
+    print "Agora vamos Subtrair!\n"
+    print "Digite o minuendo inteiro(subtração): "
+    sub1 = gets.chomp.to_i
+    print "Digite o subtraendo inteiro(subtração):"
+    sub2 = gets.chomp.to_i
+    subtraction = sub1 - sub2
+    puts "O resultado da subtração é #{subtraction}"
+elsif option == 3
+    print "Agora vamos Multiplicar\n"
+    print "Digite o primeiro fator, número inteiro (multiplicação): "
+    mult1 = gets.chomp.to_i
+    print "Digite o segundo fator, número inteiro (multiplicação): "
+    mult2 = gets.chomp.to_i
+    multiplication = mult1 * mult2
+    puts "O resultado da multiplicação, o produto é #{multiplication}"
+elsif option == 4
+    print "Agora vamos dividir\n"
+    print "Digite o primeiro número inteiro (divisão):"
+    div1 = gets.chomp.to_f
+    print "Digite o segundo número inteiro (divisão):"
+    div2 = gets.chomp.to_f
+    division = div1 / div2
+    puts "O resultado da divisão é #{division}"
+end
