@@ -1,5 +1,5 @@
 # Calcular a idade
-# trabalhar com dates é relativamente facio em Ruby,
+# CODIGO INCORETO CONTINUAR ESTUDOS
 
 require 'date'
 result = ' '
