@@ -23,7 +23,9 @@ begin
         
         if current_date.month < date_of_birth.month || (current_date.month == date_of_birth.month && current_date.day < date_of_birth.day)
             age -= 1
+        end
         
-            puts "#{age}"
+        months = current_date.year * 12 - date_of_birth * 12
     end
+    puts "#{age}" e "#{months}"
 end
