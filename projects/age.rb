@@ -4,7 +4,8 @@
 require 'date'
 result = ' '
 
-loop do
+begin
+#loop do
     puts 'Selecione uma das seguintes opções:'
     puts '1- Calcular idade de uma pessoa'
     puts '0- Sair'
@@ -20,6 +21,9 @@ loop do
 
         age = current_date.year - date_of_birth.year
         
+        if current_date.month < date_of_birth.month || (current_date.month == date_of_birth.month && current_date.day < date_of_birth.day)
+            age -= 1
+        
+            puts "#{age}"
     end
-    result = age
 end
