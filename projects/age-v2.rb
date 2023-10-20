@@ -19,6 +19,6 @@ def calculate_age(birth_date, today)
         months += 12
     end
 
-    [years, months, days]
+    array_calulate_age = [years, months, days]
 end
 
