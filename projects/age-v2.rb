@@ -1,7 +1,6 @@
-# Calculadora de idade. Não levo em consideração os anos bissextos
-# Usando DEF (definição de função) LOOP DO/BREAK; 
-# REQUIRE 'date' (Bibliotecas de data); IF/ELSE/ESLIF
-
+# Calculadora de idade. 
+# Usando DEF (definição de função) LOOP DO/BREAK; IF/ELSE/ESLIF
+# REQUIRE 'date' Biblioteca de data no Ruby, ela contempla os anos bissextos
 
 require 'date'
 
