@@ -4,6 +4,7 @@
 result = ' '
 
 loop do
+    system "clear" #comando para limpar o terminal, como se so existisse o programa.
     puts result
     puts 'Selecione uma das seguintes opções'
     puts '1- Descobrir a idade de uma pessoa'
@@ -25,5 +26,4 @@ loop do
         result = 'Opção inválida'
     end
 
-    system "clear"
 end
