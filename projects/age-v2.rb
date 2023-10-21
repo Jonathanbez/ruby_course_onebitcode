@@ -1,6 +1,8 @@
-# Calculadora de idade. 
+# Calculadora de idade que calcula os anos, meses e dias de uma pessoas.
+# Proximo passo é incrementar semanas e horas.
 # Usando DEF (definição de função) LOOP DO/BREAK; IF/ELSE/ESLIF
 # REQUIRE 'date' Biblioteca de data no Ruby, ela contempla os anos bissextos
+
 
 require 'date'
 
