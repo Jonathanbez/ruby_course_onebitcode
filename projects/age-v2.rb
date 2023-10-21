@@ -8,7 +8,7 @@ system "clear"
 
 def calculate_age(birth_date, today)
     years = today.year - birth_date.year
-    months = today.month birth_date.month
+    months = today.month - birth_date.month
     days = today.day - birth_date.day
     
     if days < 0
@@ -42,7 +42,7 @@ loop do
         # e "current_date" corresponde a "today" dentro da função criada calculate_age.
         age_years, age_months, age_days = calculate_age(date_of_birth, current_date)
 
-        result = "Você tem #{age_years} anos, #{age_months} meses e #{age_days dias}"
+        result = "Você tem #{age_years} anos, #{age_months} meses e #{age_days} dias"
 
     elsif option == 0
         break
