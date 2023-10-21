@@ -1,5 +1,4 @@
-# Calcular a idade
-# CODIGO INCORETO CONTINUAR ESTUDOS
+# Calcular a idade somente calculando o ano de nascimento. 
 
 result = ' '
 
