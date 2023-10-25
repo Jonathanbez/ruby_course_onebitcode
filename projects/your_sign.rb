@@ -1,3 +1,8 @@
+# Codigo para saber seu signo com base na data de nascimento
+# em Ruby
+
+system "clear"
+
 require 'date'
 
 print "Quer saber qual seu signo?\n"
