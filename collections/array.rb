@@ -30,3 +30,9 @@ puts estados[0] #escolher a posição desejada elemento
 puts estados.last #ultimo elemento
 puts estados.first #primeir elemento
 puts estados.count #contar elemento
+
+# elemento_x.empty? o ".empty" apos o nome do elemento em questão me permite
+# saber se o elemento esta vazio ou não.
+
+cidades = []
+puts cidades.empty?
