@@ -39,4 +39,6 @@ puts estados.empty?
 
 # array_x.include?('elemento_em_questão') o ".include?('elemento_em_questão')"
 # me permite verificar se determinado elemento está dentro do array
+print "Verificação de elemento no array usando .include?('elemento') \n"
 puts estados.include?('São Paulo')
+puts estados.include?('Goiás')
