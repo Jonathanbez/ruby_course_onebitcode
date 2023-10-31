@@ -36,3 +36,4 @@ puts estados.count #contar elemento
 
 cidades = []
 puts cidades.empty?
+puts estados.empty?
