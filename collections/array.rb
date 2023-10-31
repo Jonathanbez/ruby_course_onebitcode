@@ -14,10 +14,11 @@ estados.push('Rio Grande do Sul')
 estados.push('Minas Gerais', 'Rio de Janeiro', 'São Paulo')
 #puts estados
 
-# insere um elemento na posição escolhida do hash
+# insere um elemento na posição escolhida do hash, no caso na primeira ("0").
 estados.insert(0, 'Acre', 'Amapá')
 #puts estados
 
+# aqui inseri na terceira posição (lembrando que array começa na posição "0") 
 estados.insert(2, 'Ceara')
 puts estados[0]
 
@@ -27,3 +28,4 @@ puts estados[0]
 # ou tambem do primeiro elemento do array 
 puts estados.last
 puts estados.first
+puts estados.count
