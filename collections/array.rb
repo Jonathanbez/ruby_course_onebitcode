@@ -42,3 +42,10 @@ puts estados.empty?
 print "Verificação de elemento no array usando .include?('elemento') \n"
 puts estados.include?('São Paulo')
 puts estados.include?('Goiás')
+
+
+# array_x.delete_at(posiço_do_elemente)
+puts estados[2]
+
+
+estados.delete_at(2)
