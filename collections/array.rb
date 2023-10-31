@@ -1,5 +1,5 @@
 # Collection no Ruby
-# HASH'S/ARRAY
+# ARRAY
 
 # Criação do hash
 estados = []
