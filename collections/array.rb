@@ -31,9 +31,12 @@ puts estados.last #ultimo elemento
 puts estados.first #primeir elemento
 puts estados.count #contar elemento
 
-# elemento_x.empty? o ".empty" apos o nome do elemento em questão me permite
+# array_x.empty? o ".empty" apos o nome do elemento em questão me permite
 # saber se o elemento esta vazio ou não.
-
 cidades = []
 puts cidades.empty?
 puts estados.empty?
+
+# array_x.include?('elemento_em_questão') o ".include?('elemento_em_questão')"
+# me permite verificar se determinado elemento está dentro do array
+puts estados.include?('São Paulo')
