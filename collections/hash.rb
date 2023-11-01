@@ -13,6 +13,12 @@ puts capitais
 capitais = {acre: 'Rio Branco', sao_paulo: 'São Paulo'}
 puts capitais
 
-# hash_x[:objeto_elemento] = "elemento_objeto"
+# hash_x[:chave_valores] = "valores_chave"
 capitais[:minas_gerais] = "Belo Horizonte"
 puts capitais
+
+# hash_x.keys para ver as chaves dos valores
+puts capitais.keys
+
+# hash_x.values para ver os valores das chaves
+puts capitais.values
