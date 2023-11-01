@@ -44,8 +44,15 @@ puts estados.include?('São Paulo')
 puts estados.include?('Goiás')
 
 
-# array_x.delete_at(posiço_do_elemente)
+# array_x.delete_at(posiço_do_elemente) deleta o elemento do array 
+# informando a posição
 puts estados[2]
-
-
 estados.delete_at(2)
+
+# array_x.pop deleta o ultimo elemento do array
+estados.pop
+
+# array_x.shift deleta o primeiro elemento do array
+estados.shift
+
+puts estados
