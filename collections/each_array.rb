@@ -2,10 +2,20 @@
 
 names = ['Joãozinho', 'Manoel', 'Juca']
 
-name = 'Leonardo Scorza'
+name = 'Jonathan'
 
 names.each do |name|
     puts name
 end
 
-puts name
+#puts name
+
+numbers = [0, 1, 2, 3, 4, 5]
+
+adição = 0
+
+numbers.each do |number|
+    adição += number
+end
+
+puts adição
