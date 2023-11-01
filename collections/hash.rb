@@ -22,3 +22,11 @@ puts capitais.keys
 
 # hash_x.values para ver os valores das chaves
 puts capitais.values
+
+# hash_x.delete(:chave) para excluir uma chave c/ seu valor do hash
+capitais.delete(:acre)
+puts capitais.keys
+puts capitais.values
+
+# hash_x[:chave] Para selecionar a chave certa com seu valor
+puts capitais[:sao_paulo]
