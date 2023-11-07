@@ -31,3 +31,5 @@ puts "\n Executando .map para elevar cada item a raiz quadrada"
 squared_numbers = array.map do |squared|
     squared ** 2
 end
+
+puts "#{squared_numbers}"
