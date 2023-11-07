@@ -1,6 +1,7 @@
-# MAP - Iteração, é um metodo que percorre um Array
+# .MAP - Iteração, é um metodo que percorre um Array
 # podendo e iterar (aplicar) uma operação a cada
-# dos elementos do array
+# dos elementos do array.
+ .MAP! altera o array inicial, ao contrario do .map que somente itera em outra ¨variavel"
 
 array = [1, 2, 3, 4]
 
