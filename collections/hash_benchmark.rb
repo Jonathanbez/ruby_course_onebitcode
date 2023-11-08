@@ -3,8 +3,10 @@
 # Chave (key) com string ("um" => "dois")
 # Chave (key) com simbolo  (:um => "um")
 
+require "benchmark"
+
 # Hash com chaves (key) de números
-number = {1 => "um", 2 => "dois", 3 => "tres"}
+numbers = {1 => "um", 2 => "dois", 3 => "tres"}
 
 #Hash com chaves (key) de strings
 strings = {"um" => "um", "dois" => "dois", "tres" => "tres"}
@@ -13,7 +15,7 @@ strings = {"um" => "um", "dois" => "dois", "tres" => "tres"}
 symbols = {:um => "um", :dois => "dois", :tres => "tres"}
 
 #Benchmarks dos hash
-puts "Benchmark de Hash com tipos de chave (número, string e simbolo)\n"
+puts "Benchmark de Hash com tipos de chave (número, string e simbolo)!\n\n"
 
 puts "Números:\n"
 time = Benchmark.measure do
@@ -21,7 +23,7 @@ time = Benchmark.measure do
         numbers[1]
     end
 end
-puts "Tempo de execução: #{time}"
+puts "Tempo de execução: #{time}\n"
 
 puts "String:\n"
 time = Benchmark.measure do
@@ -29,7 +31,7 @@ time = Benchmark.measure do
         strings["um"]
     end
 end
-puts "Tempo de execução: #{time}"
+puts "Tempo de execução: #{time}\n"
 
 puts "Símbolo:\n"
 time = Benchmark.measure do
@@ -37,4 +39,4 @@ time = Benchmark.measure do
         symbols[:um]
     end
 end
-puts "Tempo de execução: #{time}"
+puts "Tempo de execução: #{time}\n"
