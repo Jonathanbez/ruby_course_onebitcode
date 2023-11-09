@@ -1,5 +1,4 @@
 
-
 init_number = []
 
 puts "Digite o primeiro numero: \n"
