@@ -26,3 +26,4 @@ squared_numbers = init_number.map! do |squared|
 end
 
 puts "#{squared_numbers}"
+puts squared_numbers
