@@ -1,10 +1,3 @@
-#array = []
-
-#loop do
-#    puts "Digite um valor:"
-#    value = gets.chomp
-##    array.push(value)
-# end
 
 
 init_number = []
