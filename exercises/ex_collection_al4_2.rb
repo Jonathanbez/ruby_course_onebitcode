@@ -14,4 +14,4 @@ puts hash.value
 
 puts "Seu #{hash.key(key)} é #{hash[key]}"
 
-#parei na aula 4 31:02m 
+#parei na aula 4 31:02m retomar
