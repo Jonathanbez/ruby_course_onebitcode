@@ -17,6 +17,7 @@ squared_numbers = init_number.map! do |squared|
   squared ** 2
 end
 
+puts "Usando o objeto\n"
 puts "#{squared_numbers}"
 puts squared_numbers
-puts "Usando o objeto"
+puts "Usando a variavel"
