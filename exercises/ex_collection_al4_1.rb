@@ -19,3 +19,4 @@ end
 
 puts "#{squared_numbers}"
 puts squared_numbers
+puts "Usando o objeto"
