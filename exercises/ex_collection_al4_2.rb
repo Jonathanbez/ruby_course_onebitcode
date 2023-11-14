@@ -1,9 +1,11 @@
 
-nome_completo = {}
+name_age = {}
 
-puts "Informe seu primeor nome"
-nome1 = gets.chomp
-puts "Informe seu ssobrenome"
-nome_completo[:nome1] = gets.chomp
+3.times do
+    puts "Informe seu nome: "
+    key = gets.chomp
+    puts "Informe sua idade: "
+    name_age[:key] = gets.chomp
+end
 
-puts "Seu nome completo é #{nome1} #{nome_completo[:nome1]}"
+puts "Seu nome é #{key}, e você tem #{name_age[:key]} idade!"
