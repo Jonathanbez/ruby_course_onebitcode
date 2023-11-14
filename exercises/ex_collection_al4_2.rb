@@ -9,3 +9,6 @@ name_age = {}
 end
 
 puts "Seu nome é #{key}, e você tem #{name_age[:key]} idade!"
+name_age.each do |key, value|
+    puts "Seu nome é #{key}, sua idade é #{value}"
+end
