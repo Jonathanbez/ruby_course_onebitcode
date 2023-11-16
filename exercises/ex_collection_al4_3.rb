@@ -7,9 +7,6 @@ puts number.values.max
 
 number = {A: 10, B: 30, C: 20, D: 25, E: 15}
 
-puts number.keys
-puts number.values
-
 max_value = 0
 max_key = 0
 
@@ -19,7 +16,8 @@ number.each do |key, value|
         max_key = key
     end
 end
-puts "maior #{max_value} e mais chave #{max_key}"
+puts "A mairo chave é #{max_key} e seu valor é #{max_value}"
 
-
-puts number.values.max
+puts number.keys
+puts number.values
+puts number
