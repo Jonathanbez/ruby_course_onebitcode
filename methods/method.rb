@@ -11,3 +11,4 @@ def talk_name(firt_name, last_name)
 end
 
 talk_name('Jonatham', 'Bezerra')
+talk_name("Amanda", "Vitorino")
