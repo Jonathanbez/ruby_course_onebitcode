@@ -1,5 +1,11 @@
+# Exercicio 3 da aula 4 do Curso completo de Ruby - OneBitCode
 
-number = {A: 10, B: 30, C: 20, D: '25', E: '15'}
+number = {A: '10', B: '30 2', C: '20', D: '25', E: '15'}
+
+puts number.values.max
+
+
+number = {A: 10, B: 30, C: 20, D: 25, E: 15}
 
 puts number.keys
 puts number.values
