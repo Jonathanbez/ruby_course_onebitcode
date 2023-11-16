@@ -8,7 +8,7 @@ name_age = {}
     name_age[key] = gets.chomp
 end
 
-puts "Seu nome é #{key}, e você tem #{name_age[:key]} idade!"
+puts "Vejamos as keys do hash #{name_age.keys}, e os values do hash #{name_age.values}"
 name_age.each do |key, value|
     puts "Seu nome é #{key}, sua idade é #{value}"
 end
