@@ -16,7 +16,7 @@ number.each do |key, value|
         max_key = key
     end
 end
-puts "A mairo chave é #{max_key} e seu valor é #{max_value}"
+puts "A maior chave é #{max_key} e seu valor é #{max_value}"
 
 puts number.keys
 puts number.values
