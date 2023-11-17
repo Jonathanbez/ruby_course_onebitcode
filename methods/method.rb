@@ -29,3 +29,5 @@ end
 
 color = 'verde'
 signal(color)
+
+signal('Está Qubrado')
