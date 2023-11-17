@@ -22,4 +22,7 @@ talk_name("Amanda", "Vitorino")
 
 #
 def signal(color = 'vermelhor')
-    puts "O sinal"
+    puts "O sinal está #{color}"
+end
+
+signal
