@@ -16,9 +16,13 @@ puts "O resultado da comparação é #{result}"
 # Return dentro do metodo nos ajuda a forçar o valor de 
 # return do metodo (função).
 
-def retorno 
+def retorno(a, b)
     "Hello, Word!"
-    return "return forçou aqui!"
+    #return "return forçou aqui!"
+    a > b
 end
 
-puts retorno
+a = 1
+b = 2
+
+puts retorno(a, b)
