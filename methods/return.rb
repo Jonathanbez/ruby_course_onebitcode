@@ -17,8 +17,8 @@ puts "O resultado da comparação é #{result}"
 # return do metodo (função).
 
 def retorno(a, b)
-    "Hello, Word!"
-    #return "return forçou aqui!"
+    puts "Hello, Word!"
+    return "return forçou aqui!"
     a > b
 end
 
