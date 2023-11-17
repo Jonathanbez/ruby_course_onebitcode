@@ -25,4 +25,5 @@ def signal(color = 'vermelhor')
     puts "O sinal está #{color}"
 end
 
-signal
+color = 'verde'
+signal(color)
