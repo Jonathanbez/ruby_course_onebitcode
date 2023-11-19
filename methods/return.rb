@@ -1,5 +1,5 @@
 
-# Com os metodos eu consigo tambem fazer cmparações numericas
+# Com os metodos ou def eu consigo tambem fazer cmparações numericas
 # Consigo relizar calculos e funções predefinidas
 
 def compare(a, b)
