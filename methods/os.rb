@@ -1,6 +1,7 @@
 
-#Usando a gem(bliblioteca no Ruby) OS
-# conse
+# Usando a gem(bliblioteca no Ruby) OS
+# consegui executar um codigo simples que esta integrado
+# nesta bibliotera, ou seja GEM
 
 require 'os'
 
