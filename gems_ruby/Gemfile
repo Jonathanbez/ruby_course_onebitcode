@@ -1,3 +1,7 @@
+# criando um arquivo "Gemfile" conseguimos organizar
+# as gems que quisermos instalar, utilizando a gem bundle
+# ex.: gem install bundler
+
 source 'http://rubygems.org'
 
 gem 'os'
