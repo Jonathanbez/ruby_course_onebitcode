@@ -1,5 +1,6 @@
 
-#
+#Usando a gem(bliblioteca no Ruby) OS
+# conse
 
 require 'os'
 
