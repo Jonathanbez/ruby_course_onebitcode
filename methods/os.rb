@@ -23,4 +23,4 @@ puts "CPU: #{OS.host_cpu}\n"
 puts "OS: #{OS.parse_os_release[:NAME]}"
 puts "Version: #{OS.parse_os_release[:VERSION]}"
 puts "OS Base: #{OS.parse_os_release[:ID_LIKE]}"
-puts OS.kernel
+puts os.kernel
