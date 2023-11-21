@@ -21,4 +21,4 @@ puts "Meu PC possui #{OS.cpu_count} cores, é #{OS.bits} bits e o sistema operac
 puts "Mais info desse PC:\n"
 puts "CPU: #{OS.host_cpu}\n"
 puts "OS:\n"
-puts OS.parse_os_release[:NAME]
+puts "#{OS.parse_os_release[:NAME]}"
