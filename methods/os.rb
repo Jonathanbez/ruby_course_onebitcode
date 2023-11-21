@@ -19,4 +19,6 @@ end
 
 puts "Meu PC possui #{OS.cpu_count} cores, é #{OS.bits} bits e o sistema operacional é #{my_os}"
 puts "Mais info desse PC:\n"
-puts "CPU: #{OS.host_cpu}"
+puts "CPU: #{OS.host_cpu}\n"
+puts "OS:\n"
+puts OS.parse_os_release
