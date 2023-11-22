@@ -1,6 +1,8 @@
 # criando um arquivo "Gemfile" conseguimos organizar
 # as gems que quisermos instalar, utilizando a gem bundle
-# ex.: gem install bundler
+# p/ instalar: gem install bundler
+# dentro da pasta com o arquivo Gemfile
+# execute o comando bundler no terminal
 
 source 'http://rubygems.org'
 
