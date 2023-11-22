@@ -5,10 +5,10 @@ def potencia(a, b)
     a ** b
 end
 
-puts "Informe a base da potencia: "
+puts "Informe a base da potência: "
 a = gets.chomp.to_i
 puts "Informe o expoente: "
 b = gets.chomp.to_i
 
-p potencia(a, b)
+p "O resultada da potência é #{potencia(a, b)}"
 
