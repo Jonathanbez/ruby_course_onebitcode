@@ -6,3 +6,4 @@ source 'http://rubygems.org'
 
 gem 'os'
 gem 'date'
+gem 'cpf_cnpj'
