@@ -5,3 +5,5 @@ def potencia(a, b)
     a ** b
 end
 
+
+p potencia(2, 5)
