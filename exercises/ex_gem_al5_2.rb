@@ -30,9 +30,11 @@ loop do
     option = gets.chomp.to_i
     if option == 1
         puts gerate_cpf
-    elseif option == 0
+        break
+    elsif option == 0
         break
     else
         puts "Opção invalida!"
+        break
     end
 end
