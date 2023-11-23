@@ -17,3 +17,13 @@ puts "Insira um CPF valido: "
 cpf = gets.chomp
 puts validate_cpf(cpf)
 
+loop do
+    puts "GERADOR DE CPF"
+    puts "Deseja gerar um CPF?"
+    puts "1 - Sim | 0 - Não"
+
+
+
+def gerate_cpf
+    CPF.generate(true)
+end
