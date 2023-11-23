@@ -5,10 +5,13 @@
 require 'cpf_cnpj'
 
 def validate_cpf(cpf)
-    cpf = CPF.valid?(number)
+    if CPF.valid?(cpf, strict: true)
+        p "CPF valido."
+    else
+        p "CPF invalido."
+    end
 end
 
 p "Informe seu CFP: "
 cpf = gets.chomp
-
-p "Seu CPF é: #{validate_cpf(cpf)}"
+p validate_cpf(cpf)
