@@ -6,12 +6,12 @@ require 'cpf_cnpj'
 
 def validate_cpf(cpf)
     if CPF.valid?(cpf, strict: true)
-        p 'CPF valido.'
+        puts 'CPF valido.'
     else
-        p 'CPF invalido.'
+        puts 'CPF invalido.'
     end
 end
 
-p 'Informe seu CFP: '
+puts 'Informe seu CFP: '
 cpf = gets.chomp
-#puts validate_cpf(cpf)
+puts validate_cpf(cpf)
