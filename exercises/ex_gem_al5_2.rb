@@ -2,6 +2,8 @@
 # Gem cpf_cnpj criando um metodo (def) para verificar
 # e validar CPF e CNPJ
 
+require 'cpf_cnpj'
+
 def validate_cpf(cpf)
     cpf = CPF.valid?(number)
 end
