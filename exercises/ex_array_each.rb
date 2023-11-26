@@ -13,9 +13,11 @@ while true
     array_number << item.to_i
 end
 
-array_number = array_number.map do { |a| a * 2 } 
-    #a = a * 2
+array_number.map! do |a| 
+    a = a * 2
 end
+
+#array_number = array_number.map { |a| a * 2 } 
 
 
 
