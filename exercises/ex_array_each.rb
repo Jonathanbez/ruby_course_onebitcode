@@ -6,15 +6,15 @@ array_number = []
 
 while true
     print "Digite um numero para multiplica: "
-    item = gets.chomp.to_i
+    item = gets.chomp
 
     break if item == ""
 
-    array_number << item
+    array_number << item.to_i
 end
 
-array_number.each do |a|
-    a * 2
+array_number = array_number.map do { |a| a * 2 } 
+    #a = a * 2
 end
 
 
