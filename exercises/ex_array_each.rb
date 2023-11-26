@@ -2,12 +2,17 @@
 #
 n = 0
 
-array_number = [n]
+array_number = []
 
 
-while 
-    n <= 5 
-        array_number.push(gets.chomp.to_i)
+while true
+    print "Digite um numero para multiplica: "
+    item = gets.chomp
+
+    break if item == ""
+
+    array_number << item
 end
+
 
 puts array_number
