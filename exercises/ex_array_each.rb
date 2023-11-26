@@ -1,8 +1,13 @@
 
 #
+n = 0
 
-array_number = [1..5]
+array_number = [n]
 
-array_number.push(gets.chomp.to_i)
+
+while 
+    n <= 5 
+        array_number.push(gets.chomp.to_i)
+end
 
 puts array_number
