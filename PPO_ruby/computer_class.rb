@@ -15,3 +15,4 @@ end
 
 computer = Computer.new
 puts computer.shutdown
+p computer.turn_on
