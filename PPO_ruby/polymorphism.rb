@@ -10,6 +10,7 @@ end
 class Keyboard < Instrumento
     def escrever
         puts 'Digitando'
+        super
     end
 end
 
