@@ -31,6 +31,6 @@ keyboard = Keyboard.new
 lapis = Lapis.new
 caneta = Caneta.new
 
-puts keyboard.escrever
-puts lapis.escrever
-puts caneta.escrever
+puts "Teclado", keyboard.escrever
+puts "Lápis", lapis.escrever
+puts  "Caneta", caneta.escrever
