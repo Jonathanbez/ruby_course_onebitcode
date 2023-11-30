@@ -11,7 +11,7 @@ class animal
     end
 end
 
-class Chachorro < animal
+class Cachorro < animal
     def latir
         puts 'Au! Au!'
     end
@@ -23,6 +23,9 @@ class Gato < animal
     end
 end
 
-cachorro = cachorro.new
+cachorro = Cachorro.new
+gato = Gato.new
 puts cachorro.pular
 puts cachorro.latir
+puts gato.dormir
+puts gato.miar
