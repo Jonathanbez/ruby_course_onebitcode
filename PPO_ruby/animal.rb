@@ -1,5 +1,6 @@
 
-#
+# Classe "Animal" é a classe base,
+# as outras clases "Gato/Cachorro" recebem seus métodos
 
 class Animal
     def pular
