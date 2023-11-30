@@ -1,6 +1,6 @@
 
 # Classes em ruby, classe é um tipo de objeto
-# que serve de base/planta/prototipo/tipo para outros obejtos
+# que serve de base/planta/prototipo/tipo para outros objetos
 # nome_do_objeto.new para iniciar class
 
 class Computer
@@ -13,6 +13,8 @@ class Computer
     end
 end
 
+# para iniciar uma classe
 computer = Computer.new
+
 puts computer.shutdown
 p computer.turn_on
