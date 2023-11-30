@@ -8,6 +8,9 @@ class Instrumento
 end
 
 class Keyboard < Instrumento
+    def escrever
+        puts 'Digitando'
+    end
 end
 
 class Lapis < Instrumento
