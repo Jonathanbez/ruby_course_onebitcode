@@ -1,7 +1,7 @@
 
 #
 
-class animal
+class Animal
     def pular
     puts 'Toing, toing! Boim, poim!'
     end
@@ -11,13 +11,13 @@ class animal
     end
 end
 
-class Cachorro < animal
+class Cachorro < Animal
     def latir
         puts 'Au! Au!'
     end
 end
 
-class Gato < animal
+class Gato < Animal
     def miar
         puts 'Meeeaw!'
     end
