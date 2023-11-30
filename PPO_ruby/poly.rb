@@ -33,7 +33,7 @@ caneta = Caneta.new
 
 puts "Teclado:"
 keyboard.escrever
-puts "Lápis:"
+puts "\nLápis:"
 lapis.escrever
-puts  "Caneta:"
+puts  "\nCaneta:"
 caneta.escrever
