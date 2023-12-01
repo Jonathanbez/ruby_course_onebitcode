@@ -29,5 +29,5 @@ puts maratonista.correr
 puts maratonista.competir
 
 puts jogador.correr
-puts jogador.competir
+jogador.competir
 
