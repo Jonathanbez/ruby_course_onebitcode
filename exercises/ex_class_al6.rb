@@ -26,3 +26,4 @@ end
 maratonista = Maratonista.new
 
 puts maratonista.correr
+puts maratonista.competir
