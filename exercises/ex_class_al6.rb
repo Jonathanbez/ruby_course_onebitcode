@@ -27,3 +27,7 @@ maratonista = Maratonista.new
 
 puts maratonista.correr
 puts maratonista.competir
+
+puts jogador.correr
+puts jogador.competir
+
