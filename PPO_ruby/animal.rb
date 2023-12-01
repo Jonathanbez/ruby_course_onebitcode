@@ -25,9 +25,9 @@ class Gato < Animal
     end
 end
 
-cachorro = Cachorro.new
-gato = Gato.new
-puts cachorro.pular
-puts cachorro.latir
-puts gato.dormir
-puts gato.miar
+#cachorro = Cachorro.new
+#gato = Gato.new
+#puts cachorro.pular
+#puts cachorro.latir
+#puts gato.dormir
+#puts gato.miar
