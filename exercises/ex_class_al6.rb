@@ -25,4 +25,4 @@ end
 
 maratonista = Maratonista.new
 
-#puts 
+puts maratonista.correr
