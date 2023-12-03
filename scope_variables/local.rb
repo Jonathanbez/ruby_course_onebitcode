@@ -7,5 +7,4 @@ def stay
     puts local
 end
 
-foo
-
+stay
