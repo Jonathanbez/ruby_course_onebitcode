@@ -12,5 +12,16 @@ class Dog
 end
 
 dog = Dog.new
+dog.name = gets.chomp
+puts dog.name
+
+class Dog
+    attr_accessor :name, :age
+end
+
+dog = Dog.new
 dog.name = 'Marlon'
 puts dog.name
+
+dog.age = '1 ano'
+puts dog.age
