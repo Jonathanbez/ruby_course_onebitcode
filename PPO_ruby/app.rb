@@ -15,6 +15,9 @@ animal = Animal.new
 animal.dormir
 animal.pular
 
-
-
+puts '--Cachorro--'
+cachorro = Cachorro.new
+cachorro.pular
+cachorro.dormir
+cachorro.latir
 
