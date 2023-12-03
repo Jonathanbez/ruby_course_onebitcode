@@ -1,5 +1,7 @@
 
-# Classe Global
+# Classe Global pode ser usada por todo codigo,
+# e irá receber ser alterado o valor na sequincia em que for usado
+
 
 class Bar
     def here
