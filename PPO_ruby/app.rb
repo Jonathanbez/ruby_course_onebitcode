@@ -8,6 +8,9 @@
 
 # lembreçe de colocar a primiera instancia certa
 # que sera a princial, ou seja a classe principal
+# é so lembrar que sempre o codigo segue a ordem, 
+# de cima pra baixa, da direita para a esquerda,
+# do ponto inicial pra frenta
 
 #require './animal.rb'
 require_relative 'for_requires/animal'
