@@ -4,7 +4,7 @@
 
 # 'require_relative' é usado para maior segurança
 # pois carrega o arquivo no caminho path informado
-# colocando o caminho, ja 'require' procura em todos os diretorios
+# colocando o caminho, ja 'require' busca a pasta onde estou executantos, podendo ser em outra
 
 #require './animal.rb'
 require_relative 'for_requires/animal'
