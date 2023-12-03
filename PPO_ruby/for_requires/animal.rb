@@ -13,17 +13,17 @@ class Animal
     end
 end
 
-class Cachorro < Animal
-    def latir
-        puts 'Au! Au!'
-    end
-end
+#class Cachorro < Animal
+#    def latir
+#        puts 'Au! Au!'
+#    end
+#end
 
-class Gato < Animal
-    def miar
-        puts 'Meeeaw!'
-    end
-end
+#class Gato < Animal
+#    def miar
+#        puts 'Meeeaw!'
+#    end
+#end
 
 #cachorro = Cachorro.new
 #gato = Gato.new

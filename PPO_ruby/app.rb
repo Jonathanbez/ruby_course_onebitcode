@@ -8,7 +8,13 @@
 
 #require './animal.rb'
 require_relative 'for_requires/animal'
+require_relative 'cachorro'
 
+puts '--Animal--'
 animal = Animal.new
 animal.dormir
+animal.pular
+
+
+
 
