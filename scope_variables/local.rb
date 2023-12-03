@@ -8,3 +8,6 @@ def stay
 end
 
 stay
+
+local = 'Esta variavel não atrapalha a outra apesar de ter o mesmo nome'
+puts local
