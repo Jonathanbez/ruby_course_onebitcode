@@ -14,7 +14,9 @@ class Programmer
 
   def show_languages
     puts "#{@name}'s programming languages:"
-    @languages.each { |lang| puts "- #{lang}" }
+    @languages.each do |lang| 
+      puts "- #{lang}"
+    end
   end
 end
 
