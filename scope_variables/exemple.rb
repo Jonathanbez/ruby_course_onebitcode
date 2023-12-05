@@ -14,11 +14,19 @@ class Programmer
 
   def show_languages
     puts "#{@name}'s programming languages:"
-    @languages.each do |lang| 
-      puts "- #{lang}"
-    end
+    @languages.each { |lang| puts "- #{lang}" }
   end
 end
+#or
+=begin
+def show_languages
+  puts "#{@name}'s programming languages:"
+  @languages.each do |lang| 
+    puts "- #{lang}"
+  end
+end
+end
+=end
 
 # Example Usage
 programmer = Programmer.new('Jonathan')
