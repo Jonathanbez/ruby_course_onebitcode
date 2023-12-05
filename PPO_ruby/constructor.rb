@@ -12,3 +12,8 @@ class Person
         puts "Instância da classe iniciada com os valores:"
         puts "Name = #{@name}"
         puts "Idade = #{@age}"
+    end
+end
+
+person = Person.new('Jonathan', 29)
+person.check
