@@ -1,5 +1,6 @@
 
-#
+# Instances Variables, variaveis que são usadas em cada instancia
+# coloquei tambem uma Class Variable para ralizar teste de contraste de uso
 
 class User
     @@user_count = 0
