@@ -3,8 +3,8 @@
 # para chamar as instruções/codigo no arquivo informado.
 
 # 'require_relative' é usado para maior segurança
-# pois carrega o arquivo no caminho path informado
-# colocando o caminho, ja 'require' busca a pasta onde estou executantos, podendo ser em outra
+# 'require_relative' usa o PATH do arquivo (relativo ao arquivo que está sendo executado
+# ja 'require' usa o PATH da pasta onde estou executanto
 
 # lembreçe de colocar a primiera instancia certa
 # que sera a princial, ou seja a classe principal
