@@ -2,6 +2,8 @@
 # Contrutores
 # initialize
 
+
+
 class Person
     def initialize(name, age)
         @name = name

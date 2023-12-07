@@ -3,7 +3,10 @@ GEM
   specs:
     cpf_cnpj (0.5.0)
     date (3.3.4)
+    ffi (1.16.3)
     os (1.1.4)
+    win32-sound (0.6.2)
+      ffi
 
 PLATFORMS
   x86_64-linux
@@ -12,6 +15,7 @@ DEPENDENCIES
   cpf_cnpj
   date
   os
+  win32-sound
 
 BUNDLED WITH
    2.4.22
