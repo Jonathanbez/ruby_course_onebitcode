@@ -1,17 +1,10 @@
 
-class Dev
-    attr_accessor :name, :age
-
-    def initialize(name, age)
-        @name = name
-        @age = age
+class Market
+    def initialize(product)
+        @product = product
     end
 
-    def info
-        puts "The name of programmer is #{name}, and your age is #{age}!"
+    def comprar
+        puts "Você comprou o porduto #{@product.name} no valor de #{@product.price}"
     end
 end
-
-jonathan = Dev.new('Jonathan', '29')
-jonathan.info
-# Output: The name of programmer is Jonathan, and your age is 29!
