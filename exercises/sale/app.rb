@@ -3,6 +3,7 @@
 require_relative 'product'
 require_relative 'market'
 
-product = Product.new("Arroz",  "9.80")
+
+product = Product.new(gets.chomp, gets.chomp.to_f)
 market = Market.new(product)
 market.comprar
