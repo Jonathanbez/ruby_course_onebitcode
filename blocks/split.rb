@@ -10,11 +10,11 @@ str.split.each do |count|
     i += 1
 end
 
-puts "The sentence \"#{str}\" have #{i}"
+puts "The sentence \"#{str}\" have #{i} words!"
 
 str1 = "I'm learning to program in Ruby!"
 i = 0
 
 str1.split.each {|count| i += 1 }
 
-puts "Have #{i} words in the sentence \"#{str1}\""
+puts "The sentence \"#{str1}\" have a #{i} words!"
