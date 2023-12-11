@@ -27,3 +27,10 @@ i = 0
 str1.split.each {|word| i += 1} 
 
 puts "Have #{i} words in the sentence \"#{str1}\""
+
+aleatory = {2 => 3, 4 => 5}
+aleatory.each do |key, value|
+    puts "Key = #{key}"
+    puts "Value = #{value}"
+    puts "Key * Value = #{key * value}"
+end
