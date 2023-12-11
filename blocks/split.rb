@@ -1,7 +1,7 @@
 
 # SPLIT em parametro do EACH (split.each)
 
-#each sem apreviação do BLOCK
+# split.each sem apreviação do BLOCK
 
 str = "I becoming to a programmer!"
 i = 0
@@ -12,6 +12,7 @@ end
 
 puts "The sentence \"#{str}\" have #{i} words!"
 
+# split.each com a abreviação do BLOCK
 str1 = "I'm learning to program in Ruby!"
 i = 0
 
