@@ -7,5 +7,8 @@
 
 sum = 0
 numbers = [5, 10, 5]
-number.each {|number| sum += number}
+numbers.each {|number| sum += number}
 puts sum
+
+str = "I'm learning programing Ruby"
+puts str
