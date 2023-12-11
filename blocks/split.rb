@@ -1,6 +1,8 @@
 
 # SPLIT em parametro do EACH (split.each)
 
+#each sem apreviação do BLOCK
+
 str = "I'm learning to program in Ruby!"
 i = 0
 
