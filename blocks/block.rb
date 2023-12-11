@@ -10,6 +10,9 @@ numbers = [5, 10, 5]
 numbers.each {|number| sum += number}
 puts sum
 
+# Entendendo Block
+# podemos ver no codigo a baixo, um collection EACH
+# senod abreviado com o Block
 str = "I'm learning programing Ruby!"
 puts str
 
