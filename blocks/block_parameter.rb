@@ -1,9 +1,10 @@
 
 # Block com parametro
 
-def hey(name, &block)
+def hey(name) #, &block)
     @name = name
-    block.call
+    #block.call
 end
 
-hey('Jonathan') {puts "Hello #{@name}"}
+hey('Jonathan') 
+hey {puts "Hello #{@name}"}
