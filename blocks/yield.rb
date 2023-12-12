@@ -15,6 +15,7 @@ end
 y {puts "Exc in block end force yield" 
     puts "..."}
 
+    puts "-----------------------------"
 def x
     if block_given?
         yield
