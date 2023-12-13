@@ -2,7 +2,7 @@
 def hash_number(numbers, &block)
     if block_given?
         numbers.each do |key, value|
-            clock.call(key, value)
+            block.call(key, value)
         end
     end
 end
