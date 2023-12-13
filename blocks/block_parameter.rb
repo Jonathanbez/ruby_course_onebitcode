@@ -6,5 +6,4 @@ def hey(name, &block)
     block.call
 end
 
-hey('Jonathan') 
-hey {puts "Hello #{@name}"}
+hey('Jonathan') {puts "Hello #{@name}"}
