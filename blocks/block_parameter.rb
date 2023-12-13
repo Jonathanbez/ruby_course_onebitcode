@@ -3,7 +3,7 @@
 
 def hey(name, &block)
     @name = name
-    #block.call
+    block.call
 end
 
 hey('Jonathan') {puts "Hello #{@name}"}
