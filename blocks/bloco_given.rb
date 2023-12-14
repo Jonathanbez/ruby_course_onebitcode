@@ -1,4 +1,6 @@
 
+#block_given?
+
 def hash_number(numbers, &block)
     if block_given?
         numbers.each do |key, value|
