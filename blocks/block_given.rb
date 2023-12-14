@@ -14,5 +14,4 @@ numbers = {2=>3, 3=>4, 4=>5}
 hash_number(numbers) do |key, value|
     puts "#{key} * #{value} = #{key * value}"
     puts "#{key} + #{value} = #{key + value}"
-    puts "-------"
 end
