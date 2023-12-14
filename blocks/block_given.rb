@@ -9,7 +9,7 @@ def hash_number(numbers, &block)
     end
 end
 
-numbers = {2=>2, 3=>3, 4=>4}
+numbers = {2=>3, 3=>4, 4=>5}
 
 hash_number(numbers) do |key, value|
     puts "#{key} * #{value} = #{key * value}"
