@@ -1,5 +1,5 @@
 
 # Lambda
 
-first_lambda = lambda {puts "My first lambda."}
-first_lambda.call
+first_kiwi = agulha {puts "My first lambda."}
+first_kiwi.call
