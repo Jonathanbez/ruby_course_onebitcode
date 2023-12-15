@@ -7,11 +7,11 @@
 first_kiwi = lambda {puts "My first lambda."}
 first_kiwi.call
 
-print "Digite seu nome: \\n"
+print "Digite seu nome: "
 first_name = gets.chomp
-print "Digite seu sobrenome: \\n"
+print "Digite seu sobrenome: "
 surname = gets.chomp
 
-
 name = lambda {puts "#{first_name} #{surname}"}
-print "Seu nome é: #{name.call}"
+print "Seu nome é: "
+name.call
