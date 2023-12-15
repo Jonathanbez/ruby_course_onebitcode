@@ -6,3 +6,12 @@
 
 first_kiwi = lambda {puts "My first lambda."}
 first_kiwi.call
+
+print "Digite seu nome: \\n"
+first_name = gets.chomp
+print "Digite seu sobrenome: \\n"
+surname = gets.chomp
+
+
+name = lambda {puts "#{first_name} #{surname}"}
+print "Seu nome é: #{name.call}"
