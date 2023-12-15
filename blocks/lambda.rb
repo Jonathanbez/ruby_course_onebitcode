@@ -17,3 +17,7 @@ surname = gets.chomp
 name = -> {puts "#{first_name} #{surname}"}
 print "Seu nome é: "
 name.call
+
+list_names = -> (names){ names.each { |name| puts name}}
+names = ["Jõao", "Maria", "Pedro"]
+list_names.call(names)
