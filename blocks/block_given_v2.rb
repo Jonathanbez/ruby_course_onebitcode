@@ -15,3 +15,4 @@ hash_number(numbers) do |key, value|
     puts "#{key} * #{value} = #{key * value}"
     puts "#{key} + #{value} = #{key + value}"
 end
+
