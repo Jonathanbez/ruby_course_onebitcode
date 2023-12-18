@@ -3,11 +3,13 @@ def try
     if block_given?
         yield
     else
-        "no block"
+        puts "no block"
     end
 end
 
 try
-try {"Hello Word!"}
-try do "Hello Word!!!"
-end
+
+try {puts "Hello Word!"}
+
+
+try do puts "Hello Word!!!" end
