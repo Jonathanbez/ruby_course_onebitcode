@@ -8,8 +8,5 @@ def try
 end
 
 try
-
 try {puts "Hello Word!"}
-
-
 try do puts "Hello Word!!!" end
