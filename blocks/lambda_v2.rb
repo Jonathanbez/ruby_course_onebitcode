@@ -11,3 +11,4 @@ my_lambda = lambda do |numbers|
 end
 
 numbers = [1, 2, 3, 4]
+my_lambda.call(numbers)
