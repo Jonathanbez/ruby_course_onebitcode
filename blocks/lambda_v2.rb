@@ -9,3 +9,5 @@ my_lambda = lambda do |numbers|
         index += 1
     end
 end
+
+numbers = [1, 2, 3, 4]
