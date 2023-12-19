@@ -49,3 +49,5 @@ lutadorx = LutadorX.new
 lutadorx.chute_frontal
 lutadorx.jab_de_direita
 
+lutadory = LutadorY.new
+lutadory.chute_lateral
