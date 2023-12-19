@@ -18,6 +18,7 @@ module Pernas
     def chute_lateral
         imprimir 'Chute Lateral'
     end
+end
 
 module Bracos
     include ImpressaoDecorada
