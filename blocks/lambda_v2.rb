@@ -12,3 +12,10 @@ end
 
 numbers = [1, 2, 3, 4]
 my_lambda.call(numbers)
+
+h = Hash.new("Go Fish")
+h["a"] = 100
+h["b"] = 200
+h["c"]
+puts h["c"]
+puts h["c"].upcase!
