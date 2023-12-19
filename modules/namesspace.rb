@@ -4,5 +4,7 @@ module ReverseWorld
         print text.reverse.to_s
     end
 end
+    
 
-ReverseWorld::puts "O resultado é:"
+
+ReverseWorld::puts "\nO resultado é:\n"
