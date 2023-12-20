@@ -1,7 +1,9 @@
 
+#Mixin é o nome dado a 
+
 module ImpressaoDecorada
     def imprimir text
-        decoracao = '#' * 100
+        decoracao = '#' * 10
         puts decoracao
         puts text
         puts decoracao
