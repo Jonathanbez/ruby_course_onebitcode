@@ -1,5 +1,8 @@
 
-#Mixin é o nome dado a 
+# Mixin é o nome dado ao aproveitamento das classes
+# em outras aprtes do codigo sem herança, usando 'module'
+# para formar uma, e reulitilzar em outro 'module' com
+# 'include' dentro do proximo 'module' evidentemente
 
 module ImpressaoDecorada
     def imprimir text
