@@ -4,5 +4,10 @@ nome = "jonathan"
 puts "#{nome.capitalize}"
 
 nome1 = 'amanda'
-nome1.capitalize
-puts "#{nome1}"
+puts "#{nome1.capitalize}"
+
+def capitalize_name =  lambda(name)
+    name = gets.chomp.to_s
+end
+
+print capitalize_name.capitalize
