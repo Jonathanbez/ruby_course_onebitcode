@@ -7,7 +7,11 @@ nome1 = 'amanda'
 puts "#{nome1.capitalize}"
 
 
-name = lambda {puts gets.chomp.to_s.capitalize}
 
-def capitalize_name
-    
+
+def capitalize_name(name)
+    name.call
+    name.call
+end
+name = lambda {puts gets.chomp.to_s.capitalize}
+capitalize_name(name)
