@@ -1,4 +1,4 @@
-
+=begin
 nome0 = "jonathan"
 
 puts "#{nome0.capitalize}"
@@ -15,16 +15,23 @@ def capitalize_name(name)
 end
 name = lambda {puts gets.chomp.to_s.capitalize}
 capitalize_name(name)
+=end
 
-class Juridic(nome, cnpj)
-    @nome = nome
-    @cnpj = cnpj
+class Juridic
+    def initialize(nome, cnpj)
+        @nome = nome
+        @cnpj = cnpj
+    end
+    def add
+        puts "Pessoa Juridica Adicionada\n"
+        puts "nome: #{@nome}"
+        puts "cnpj: #{@cnpj}"
+    end
 end
 
 module Person
-    include Juridic
-    puts "Pessoa Juridica Adicionada"
-    
+    include Juridic  
 end
 
 Person::Juridic.new('M.C.Investimentos', '4241.123/0001').add
+
