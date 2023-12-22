@@ -17,20 +17,19 @@ name = lambda {puts gets.chomp.to_s.capitalize}
 capitalize_name(name)
 =end
 
-class Juridic
-    def initialize(nome, cnpj)
-        @nome = nome
-        @cnpj = cnpj
-    end
-    def add
-        puts "Pessoa Juridica Adicionada\n"
-        puts "nome: #{@nome}"
-        puts "cnpj: #{@cnpj}"
-    end
-end
 
 module Person
-    include Juridic  
+    class Juridic
+        def initialize(nome, cnpj)
+            @nome = nome
+            @cnpj = cnpj
+        end
+        def add
+            puts "Pessoa Juridica Adicionada\n"
+            puts "nome: #{@nome}"
+            puts "cnpj: #{@cnpj}"
+        end
+    end
 end
 
 Person::Juridic.new('M.C.Investimentos', '4241.123/0001').add
