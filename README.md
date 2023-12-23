@@ -1,2 +1,2 @@
 # ruby_course_onebitcode
-My studies of complete Ruby course on OneBitCode.
+My studies of Complete Ruby course on OneBitCode.
