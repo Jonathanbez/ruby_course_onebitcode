@@ -18,3 +18,8 @@ str1 = "Serei Dev Ruby em 2014!"
 
 puts %r{ev} =~ str1
 puts %r{ev}.match(str1)
+puts %r{ev}.match(str1)
+
+search = %r{ev}.match(str1)
+puts search.pre_match
+puts search.post_match
