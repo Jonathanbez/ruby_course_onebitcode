@@ -42,3 +42,5 @@ puts /[p-z]/.match('oi')
 puts /[a-z]/.match('Oi')
 # podemos delimitar somente digitos
 puts /\d/.match('A4')
+# repetition para pesqusias longas de um mesmo tipo de char
+puts /[0-9]{2} [0-9]{9}/.match('11 963572064')
