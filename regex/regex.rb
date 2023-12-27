@@ -33,3 +33,8 @@ puts search.post_match
 # use '\' na busca de special char
 puts %r{\?}.match('Tudo bem?')
 puts /\?/.match('Tudo bem?')
+
+# Character Classes, pesquisa especifica p/ um range
+puts /[2-4]/.match('123')
+puts /[a-z]/.match('oi')
+puts /[p-z]/.match('oi')
