@@ -36,5 +36,9 @@ puts /\?/.match('Tudo bem?')
 
 # Character Classes, pesquisa especifica p/ um range
 puts /[2-4]/.match('123')
+# aqui podemos pesquisar char, maiusculo ou minisculo
 puts /[a-z]/.match('oi')
 puts /[p-z]/.match('oi')
+puts /[a-z]/.match('Oi')
+# podemos delimitar somente digitos
+puts /\d/.match('A4')
