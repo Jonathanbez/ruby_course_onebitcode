@@ -44,4 +44,5 @@ puts /[a-z]/.match('Oi')
 puts /\d/.match('A4')
 # repetition para pesqusias longas de um mesmo tipo de char
 puts /[0-9]{2} [0-9]{9}/.match('11 963572064')
-puts /\d{2} \d{9}/.match('11 963572064')
+# apos a , dentro dos {**,} procura infinitamente, so menos que não
+puts /\d{2} \d{9}/.match('11 96357206455555555555555555555555555555555555555555555555555')
