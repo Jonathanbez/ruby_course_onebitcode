@@ -19,3 +19,8 @@ class Foo1
 end
 
 Foo1.bar
+
+class Pen
+    attr_accessor :color
+    def pen_color
+        
