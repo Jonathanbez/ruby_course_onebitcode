@@ -3,7 +3,7 @@
 
 class Foo
     attr_accessor :test
-    def ber
+    def bar
         puts self
     end
 end
@@ -11,3 +11,11 @@ end
 foo = Foo.new
 puts foo
 foo.bar
+
+class Foo1
+    def self.bar
+        puts self
+    end
+end
+
+Foo1.bar
