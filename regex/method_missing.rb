@@ -14,3 +14,4 @@ end
 fish = Fish.new
 fish.swin
 fish.walk
+fish.flying
