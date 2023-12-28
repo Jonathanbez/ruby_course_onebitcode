@@ -23,7 +23,7 @@ Foo1.bar
 class Pen
     attr_accessor :color
     def pen_color
-        puts "The color of this pen is" + self.color
+        puts "The color of this pen is " + self.color
     end
 end
 
