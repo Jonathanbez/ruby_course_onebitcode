@@ -1,5 +1,5 @@
 
-# self
+# self é sempre a propria istancia da classe
 
 class Foo
     attr_accessor :test
@@ -29,4 +29,4 @@ end
 
 pen = Pen.new
 pen.color = "blue"
-pen.pen_color
+pen.pen_color 
