@@ -1,17 +1,21 @@
 
 # Method Protected in Class
 
-class Example
+class Usuario
     def call_protected(instance)
-        instance.bar
+        instance.name
+        instance.surname
     end
     protected
-    def test
-        puts "protected method"
+    def name
+        puts gets.chomp
+    end
+    def surname
+        puts gets.chomp
     end
 end
 
-instance_1 = Example.new
-instance_2 = Example.new
-instance_1.call_protected(instance_1)
-instance_2.call_protected(instance_2)
+instance_1 = Usuario.new
+instance_2 = Usuario.new
+instance_1.call_protected(instance.surname)
+instance_2.call_protected(instance.name)
