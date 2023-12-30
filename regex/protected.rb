@@ -16,3 +16,4 @@ end
 
 instance_1 = Usuario.new
 instance_1.call_protected#(instance_1)
+instance_1.name
