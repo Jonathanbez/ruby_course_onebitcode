@@ -3,19 +3,17 @@
 
 class Usuario
     def call_protected(instance)
-        instance.name
-        instance.surname
+        puts "#{name} #{surname}"
     end
     protected
     def name
-        puts gets.chomp
+        gets.chomp
     end
     def surname
-        puts gets.chomp
+        gets.chomp
     end
 end
 
 instance_1 = Usuario.new
 instance_2 = Usuario.new
-instance_1.call_protected(instance.surname)
-instance_2.call_protected(instance.name)
+instance_1.call_protected(instance_2)
