@@ -1,5 +1,5 @@
 
-# Method Private in Clas
+# Method Private in Class
 
 class Example
     def call_private
@@ -19,4 +19,4 @@ end
 
 example = Example.new
 example.call_private
-
+exemple.prive
