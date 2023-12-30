@@ -2,7 +2,7 @@
 # Method Protected in Class
 
 class Usuario
-    def call_protected(instance)
+    def call_protected#(instance)
         puts "#{name} #{surname}"
     end
     protected
@@ -15,6 +15,4 @@ class Usuario
 end
 
 instance_1 = Usuario.new
-instance_2 = Usuario.new
-instance_1.call_protected(instance_2)
-instance_2.call_protected(instance_1)
+instance_1.call_protected#(instance_1)
