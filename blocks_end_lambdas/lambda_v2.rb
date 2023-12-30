@@ -17,7 +17,7 @@ h = Hash.new("Go Fish")
 h["a"] = 100
 h["b"] = 200
 h["c"]
-puts h["c"]
+puts h["b"]
 puts h["c"].upcase!
 
 my_lambda1 = -> (x) {puts "Lambda: #{x}"}

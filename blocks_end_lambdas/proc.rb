@@ -11,7 +11,8 @@ times3 = genTimes(3)
 times5 = genTimes(5)
 puts times3.call(12)
 puts times5.call(5)
-waputs times3.call(times5.call(4))
+puts times3.call(times5.call(4))
 
-square = Square.new {|x| x**2}
+square = Proc.new {|x| x**2}
 puts square.call(3)
+
