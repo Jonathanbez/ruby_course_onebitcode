@@ -19,3 +19,8 @@ h["b"] = 200
 h["c"]
 puts h["c"]
 puts h["c"].upcase!
+
+my_lambda1 = -> (x) {puts "Lambda: #{x}"}
+my_lambda1.call(30)
+my_lambda1.call(40)
+
