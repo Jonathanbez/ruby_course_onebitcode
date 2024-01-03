@@ -18,7 +18,7 @@ class Animal
     def make_internal_sound
         puts "(Internal sound)"
     end
-
+    
     protected
     def chech_health
         puts "Health is good."
@@ -33,7 +33,7 @@ class Dog < Animal
     end
 end
 
-dog = Dog.new("Marlon")
-dog.bark#("Marlon")
-animal = Animal.new("Negão")
-animal.make_internal_sound
+dog = Dog.new("Caramelo")
+dog.bark#("Caramelo")
+animal = Animal.new("Mandrak")
+animal.call_private
