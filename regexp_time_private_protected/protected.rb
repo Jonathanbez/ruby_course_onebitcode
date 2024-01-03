@@ -1,10 +1,11 @@
 
 # Method Protected in Class
-=begin
+
 class Usuario
-    def call_protected#(instance)
-        puts "#{name} #{surname}"
-        puts instance.name
+    def call_protected(instance)
+        #puts "#{name} #{surname}"
+        instance.print_
+        
     end
     protected
     def name
@@ -13,13 +14,18 @@ class Usuario
     def surname
         gets.chomp
     end
+    def print_
+        puts "#{name} #{surname}"
+    end
 end
 
 instance_1 = Usuario.new
-instance_1.call_protected#(instance_1)
-instance_1.name
-=end
+instance_2 = Usuario.new
+instance_1.call_protected(instance_2)
+#instance_1.print_
 
+
+=begin
 class Foo
     def call_protected(instance)
         instance.bar
@@ -33,5 +39,6 @@ end
 instance_1 = Foo.new
 instance_2 = Foo.new
 
-instance_1.call_protected(instance_1)
+#instance_1.call_protected(instance_1)
 instance_1.call_protected(instance_2)
+=end
