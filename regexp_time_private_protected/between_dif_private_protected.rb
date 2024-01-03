@@ -10,6 +10,10 @@ class Animal
         puts "Hello, I'm #{@name}!"
     end
 
+    def call_private
+        make_internal_sound
+    end
+
     private
     def make_internal_sound
         puts "(Internal sound)"
@@ -31,3 +35,5 @@ end
 
 dog = Dog.new("Marlon")
 dog.bark#("Marlon")
+animal = Animal.new("Negão")
+animal.make_internal_sound
