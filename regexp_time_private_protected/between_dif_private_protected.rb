@@ -7,5 +7,27 @@ class Animal
     end
 
     def speak
-        puts "Hello, I'm #{@name}"
+        puts "Hello, I'm #{@name}!"
     end
+
+    private
+    def make_internal_sound
+        puts "(Internal sound)"
+    end
+
+    protected
+    def chech_health
+        puts "Health is good."
+    end
+end
+
+class Dog < Animal
+    def bark
+        make_internal_sound
+        chech_health
+        puts "Woof!"
+    end
+end
+
+dog = Dog.new("Marlon")
+dog.bark#("Marlon")
