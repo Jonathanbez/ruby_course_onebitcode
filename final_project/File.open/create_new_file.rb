@@ -3,10 +3,6 @@ File.open('Pai_Nosso.txt', 'w') do |file|
     file.puts "Pai Nosso que estais nos Céus,"
 end
 
-File.open('Pai_Nosso.txt', 'r') do |file| 
-    file.each {|line| puts line}
-end
-
 File.open('Pai_Nosso.txt', 'a') do |file|
     file.puts "santificado seja o vosso Nome,"
     file.puts "venha a nós o vosso Reino,"
