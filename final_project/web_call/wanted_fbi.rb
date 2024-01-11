@@ -11,3 +11,7 @@ puts "Total items: #{data['total']}"
 data['items'].each do |item|
   puts item['title']
 end
+
+File.open('Lista de procurados.txt') do |file| 
+    file.each {|line| puts line}
+end
