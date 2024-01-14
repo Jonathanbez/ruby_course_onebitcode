@@ -1,4 +1,6 @@
 
+# https://ruby-doc.org/3.3.0/File.html#method-c-open
+
 File.open('Pai_Nosso.txt', 'w') do |file|
     file.puts "Pai Nosso que estais nos Céus,"
 end
