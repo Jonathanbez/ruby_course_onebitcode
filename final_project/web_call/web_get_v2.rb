@@ -9,6 +9,7 @@ if response.is_a?(Net::HTTPSuccess)
         line.puts(response.body)
     end
     puts 'HTML content saved to exemple.html'
+    puts response.message
 else
     puts "Failed to retrive HTML. HTTP status code: #{response.code}"
 end
