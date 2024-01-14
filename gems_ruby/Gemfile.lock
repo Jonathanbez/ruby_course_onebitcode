@@ -4,7 +4,15 @@ GEM
     cpf_cnpj (0.5.0)
     date (3.3.4)
     ffi (1.16.3)
+    httparty (0.21.0)
+      mini_mime (>= 1.0.0)
+      multi_xml (>= 0.5.2)
+    mini_mime (1.1.5)
+    multi_xml (0.6.0)
+    nokogiri (1.16.0-x86_64-linux)
+      racc (~> 1.4)
     os (1.1.4)
+    racc (1.7.3)
     win32-sound (0.6.2)
       ffi
 
@@ -14,6 +22,8 @@ PLATFORMS
 DEPENDENCIES
   cpf_cnpj
   date
+  httparty
+  nokogiri
   os
   win32-sound
 
