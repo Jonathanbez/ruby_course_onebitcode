@@ -1,11 +1,11 @@
 
 require 'net/http'
 
-url = URI.parse('https://www.youtube.com')
+url = URI.parse('https://www.onebitcode.com')
 response = Net::HTTP.get_response(url)
 
 if response.is_a?(Net::HTTPSuccess)
-    File.open('exemple.html', 'w') do |line|
+    File.open('onebitcode.html', 'w') do |line|
         line.puts(response.body)
     end
     puts 'HTML content saved to exemple.html'
@@ -15,3 +15,4 @@ if response.is_a?(Net::HTTPSuccess)
 else
     puts "Failed to retrive HTML. HTTP status code: #{response.code}"
 end
+

@@ -4,11 +4,11 @@
 require 'nokogiri'
 require 'net/http'
 
-https = Net::Http.new('onebitcode.com', 443)
+https = Net::HTTP.new('www.onebitcode.com', 443)
 # para fazer chamadas https
 https.use_ssl = true
 
-response = https.gets("/")
+response = https.get("/")
 
 doc = Nokogiri::HTML(response.body)
 h1 = doc.at('h1')
