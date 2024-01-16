@@ -17,7 +17,7 @@ puts g
 
 
 # Convert an amount from one currency to another
-api_key = 'bab2b7bb14215e41321b35a92269808c'
+api_key = 
 amount = 1
 to_currency = 'BRL'
 
