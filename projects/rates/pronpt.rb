@@ -12,7 +12,7 @@ puts t_up
 
 puts "Add your API KEY of Fixer"
 api_key = ""
-    while char STDIN.getch
+    while (char = STDIN.getch)
         break if char == "\r" || "\n"
         print "*"
         api_key << char
