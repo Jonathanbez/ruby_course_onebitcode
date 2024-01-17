@@ -3,6 +3,7 @@ require 'tty-prompt'
 require 'net/http'
 require 'json'
 require 'io/console'
+
 system 'clear'
 
 title = "Convert or know the exchange rate of your currency\n\n"
