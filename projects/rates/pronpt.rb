@@ -14,6 +14,9 @@ puts t_up
 puts "Add your API KEY of Fixer"
 
 api_key = get_password
+unless validate_api_key(api_key)
+    exit
+end
 
 uri = URI("http://data.fixer.io/api/latest?access_key=#{api_key}&base=EUR")
 response = Net::HTTP.get(uri)
