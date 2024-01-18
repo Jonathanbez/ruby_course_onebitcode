@@ -6,9 +6,9 @@ def validate_api_key(api_key)
     response = Net::HTTP.get_response(uri)
 
     if response.code.to_i == 200
-        return true
+        true
     else
         puts "Invalid API Key! Please check and try again."
-        return false
+        false
     end
 end
