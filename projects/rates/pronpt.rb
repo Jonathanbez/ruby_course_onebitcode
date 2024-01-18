@@ -4,6 +4,7 @@ require 'net/http'
 require 'json'
 require 'io/console'
 require_relative 'pass'
+require_relative 'validate'
 
 system 'clear'
 
@@ -11,8 +12,7 @@ title = "Convert or know the exchange rate of your currency\n\n"
 t_up = title.upcase
 puts t_up
 
-puts "Add your API KEY of Fixer"
-
+puts "Put your API KEY of Fixer"
 api_key = get_password
 unless validate_api_key(api_key)
     exit
