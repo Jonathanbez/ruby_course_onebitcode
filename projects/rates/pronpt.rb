@@ -3,6 +3,7 @@ require 'tty-prompt'
 require 'net/http'
 require 'json'
 require 'io/console'
+require_relative 'pass'
 
 system 'clear'
 
@@ -11,12 +12,8 @@ t_up = title.upcase
 puts t_up
 
 puts "Add your API KEY of Fixer"
-api_key = ""
-    while (char = STDIN.getch)
-        break if char == "\r" || "\n"
-        print "*"
-        api_key << char
-    end
+password = 
+api_key = pass
 
 uri = URI("http://data.fixer.io/api/latest?access_key=#{api_key}&base=EUR")
 response = Net::HTTP.get(uri)
