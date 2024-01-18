@@ -13,7 +13,7 @@ puts t_up
 
 puts "Add your API KEY of Fixer"
 password = Password.new
-api_key = password
+api_key = get_password
 
 uri = URI("http://data.fixer.io/api/latest?access_key=#{api_key}&base=EUR")
 response = Net::HTTP.get(uri)

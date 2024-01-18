@@ -1,7 +1,9 @@
 
 require 'io/console'
 
-def Password
+def get_password
+    password = ""
+
     IO.console.raw do |io|
         loop do
             char = io.getbyte
@@ -10,4 +12,6 @@ def Password
             password << char.chr
         end
     end
+
+    password
 end
