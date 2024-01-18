@@ -39,9 +39,6 @@ currencies = [
 ]
 select1 = prompt1.select("select the currency to be converted:", currencies)
 
-
-
-
 rates = JSON.parse(response)['rates']
 if rates[select] == rates['EUR'] 
     converted_amount = rates[select] * rates[select1]
