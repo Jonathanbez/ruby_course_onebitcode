@@ -1,14 +1,16 @@
 
 require 'net/http'
 
-def validate_api_key(api_key)
-    uri = URI("http://data.fixer.io/api/latest?access_key=#{api_key}&base=EUR")
-    response = Net::HTTP.get_response(uri)
+module APIKeyValidator
+    def self.validate_api_key(api_key)
+        uri = URI("http://data.fixer.io/api/latest?access_key=#{api_key}&base=EUR")
+        response = Net::HTTP.get_response(uri)
 
-    if response.code.to_i == 200
-        true
-    else
-        puts "Invalid API Key! Please check and try again."
-        false
+        if response.code.to_i == 200
+            true
+        else
+            puts "Invalid API Key! Please check and try again."
+            false
+        end
     end
 end

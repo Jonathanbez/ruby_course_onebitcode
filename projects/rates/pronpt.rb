@@ -14,7 +14,7 @@ puts t_up
 
 puts "Put your API KEY of Fixer"
 api_key = get_password
-unless validate_api_key(api_key)
+unless APIKeyValidator.validate(api_key)
     exit
 end
 
