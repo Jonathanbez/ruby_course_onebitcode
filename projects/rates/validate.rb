@@ -9,8 +9,8 @@ module APIKeyValidator
         if response.code.to_i == 200
             true
         else
-            puts "Invalid API Key! Please check and try again."
             false
+            puts "Invalid API Key! Please check and try again."
         end
     end
 end
