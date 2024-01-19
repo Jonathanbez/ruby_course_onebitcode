@@ -2,7 +2,7 @@
 require 'io/console'
 require 'tty-prompt'
 require 'json'
-require_relative 'pass'
+require_relative 'password'
 require_relative 'validate'
 require 'net/http'
 
