@@ -33,12 +33,13 @@ if parsed_response.key?('rates')
     puts "\n"
     prompt1 = TTY::Prompt.new
     select1 = prompt1.select("select the currency to be converted:", currencies)
+    amount = gets.chomp.to_i
 
     if rates.key?(select) && rates.key?(select1)    
         if rates[select] == rates['EUR'] 
-            converted_amount = rates[select] * rates[select1]
+            converted_amount = (rates[select] * rates[select1]) * amount
         else
-            converted_amount = rates[select] / rates[select1]
+            converted_amount = (rates[select] / rates[select1]) * amount
         end
         puts "Convert: #{converted_amount}"
     else
