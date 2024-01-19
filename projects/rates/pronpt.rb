@@ -14,36 +14,37 @@ puts t_up
 
 puts "Put your API KEY of Fixer:"
 api_key = get_password
-unless APIKeyValidator.validate(api_key)
-    exit
-end
 
 uri = URI("http://data.fixer.io/api/latest?access_key=#{api_key}&base=EUR")
 response = Net::HTTP.get(uri)
 
-prompt = TTY::Prompt.new
-currencies = [
-    'BRL',
-    'USD',
-    'BTC',
-    'EUR'
-]
-select = prompt.select("Select your base currency:", currencies)
-puts "\n"
-prompt1 = TTY::Prompt.new
-currencies = [
-    'BRL',
-    'USD',
-    'BTC',
-    'EUR'
-]
-select1 = prompt1.select("select the currency to be converted:", currencies)
-
-rates = JSON.parse(response)['rates']
-if rates[select] == rates['EUR'] 
-    converted_amount = rates[select] * rates[select1]
-    else
-        converted_amount =   rates[select] / rates[select1]
+begin
+    parsed_response = JSON.parse(response)
+rescue JSON::ParserError
+    puts "Error parsing the API response. Please check your API key and try again."
+    exit
 end
-puts "Conver: #{converted_amount}"
 
+if parsed_response.key?('rates')
+    rates = parsed_response['rates']
+
+    prompt = TTY::Prompt.new
+    currencies = ['BRL','USD','BTC','EUR']
+    select = prompt.select("Select your base currency:", currencies)
+    puts "\n"
+    prompt1 = TTY::Prompt.new
+    select1 = prompt1.select("select the currency to be converted:", currencies)
+
+    if rates.key?(select) && rates.key?(select1)    
+        if rates[select] == rates['EUR'] 
+            converted_amount = rates[select] * rates[select1]
+        else
+            converted_amount = rates[select] / rates[select1]
+        end
+        puts "Convert: #{converted_amount}"
+    else
+        puts "Invalid or incomplete response from the API. Please check your API key and try again."
+    end
+else
+    puts "API returned an error: #{parsed_response['error']['info']}"
+end
