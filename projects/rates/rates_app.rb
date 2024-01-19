@@ -1,10 +1,9 @@
 
+require 'net/http'
 require 'io/console'
 require 'tty-prompt'
 require 'json'
 require_relative 'password'
-require_relative 'validate'
-require 'net/http'
 
 system 'clear'
 
