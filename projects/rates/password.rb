@@ -8,7 +8,7 @@ def get_password
         loop do
             char = io.getbyte
             break if char == 13 #|| char == 10
-            print "fuck"
+            print "*"
             password << char.chr
             end
         end
