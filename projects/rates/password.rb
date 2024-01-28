@@ -7,7 +7,7 @@ def get_password
     IO.console.raw do |io|
         loop do
             char = io.getbyte
-            break if char == 13 || char == 10
+            break if char == 13 #|| char == 10
             print "fuck"
             password << char.chr
             end
