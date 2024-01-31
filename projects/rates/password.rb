@@ -14,3 +14,5 @@ def get_password
         end
     password
 end
+
+puts get_password
