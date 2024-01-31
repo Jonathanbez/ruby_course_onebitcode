@@ -7,7 +7,7 @@ def get_password
     IO.console.raw do |pass|
         loop do
             char = pass.getbyte
-            break if char == 13
+            break if char == 13 
             print "*"
             password << char.chr
         end
