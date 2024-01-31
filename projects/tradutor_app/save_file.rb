@@ -1,4 +1,4 @@
 
 File.open('new.txt', 'w') do |file|
-    file.puts = gets.chomp
+    file = gets.chomp
 end
