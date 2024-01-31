@@ -9,7 +9,7 @@ def get_password
             char = pass.getbyte
             break if char == 13
             print "*"
-            password = char.chr
+            password << char.chr
         end
     end
     password
