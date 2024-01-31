@@ -11,4 +11,9 @@ def get_password
             print "*"
             password = char.chr
         end
- 
+    end
+    password
+end
+
+senha = get_password
+puts senha
