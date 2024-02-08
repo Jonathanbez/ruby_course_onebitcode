@@ -12,5 +12,5 @@ def remove_duplicate(array)
     new_array
 end
 
-puts carro = [1,1,2,2,3,3]
-puts remove_duplicate(carro)
+puts "Lista 1 #{carro = ['ford','fiat','volks','GM','volks','GM', 'Honda']}\n"
+puts "Lista 2 #{remove_duplicate(carro)}"
