@@ -1,5 +1,8 @@
 
 # Como remover duplicações em arrays
+# usando a logica do UNLESS e .include?
+# itero em no array existente e adciono somente se ele for novo
+# se já existir é ignorado, 
 
 def remove_duplicate(array)
     new_array = []
