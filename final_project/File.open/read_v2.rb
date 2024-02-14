@@ -7,3 +7,4 @@ file.each do |line|
     puts line
 end
 
+git
