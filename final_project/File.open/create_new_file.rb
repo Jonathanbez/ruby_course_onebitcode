@@ -19,6 +19,9 @@ File.open('Pai_Nosso.txt', 'a') do |file|
     file.puts "Amém!"
 end
 
-File.open('Pai_Nosso.txt') do |file| 
+
+
+
+File.open('Pai_Nosso.txt') do |file|
     file.each {|line| puts line}
 end
