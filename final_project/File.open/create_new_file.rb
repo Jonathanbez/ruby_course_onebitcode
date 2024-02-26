@@ -22,6 +22,8 @@ end
 
 
 
+
+
 File.open('Pai_Nosso.txt') do |file|
     file.each {|line| puts line}
 end
