@@ -26,6 +26,8 @@ GEM
       tty-cursor (~> 0.7)
     tty-color (0.6.0)
     tty-cursor (0.7.1)
+    tty-spinner (0.9.3)
+      tty-cursor (~> 0.7)
     unicode-display_width (2.5.0)
     unicode_utils (1.4.0)
     win32-sound (0.6.2)
@@ -41,6 +43,7 @@ DEPENDENCIES
   nokogiri
   os
   tty-box
+  tty-spinner
   win32-sound
 
 BUNDLED WITH
