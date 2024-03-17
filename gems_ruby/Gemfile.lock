@@ -1,6 +1,7 @@
 GEM
   remote: http://rubygems.org/
   specs:
+    colorize (1.1.0)
     cpf_cnpj (0.5.0)
     date (3.3.4)
     ffi (1.16.3)
@@ -37,6 +38,7 @@ PLATFORMS
   x86_64-linux
 
 DEPENDENCIES
+  colorize
   cpf_cnpj
   date
   httparty
