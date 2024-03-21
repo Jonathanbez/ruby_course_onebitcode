@@ -19,3 +19,4 @@ numbers.each do |number|
 end
 
 puts adição
+
